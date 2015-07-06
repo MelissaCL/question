@@ -5,13 +5,12 @@
 </div>
 
 <div>
-	<% form_for(@new_post) do |f| %>
+	<%= form_for(@new_post) do |f| %>
 	
 		<%= f.text_field :comment %>
 		<%= f.submit "post", :class =>"btn" %>
 	<% end %>
 
-    </div>
 </div>
 
 <ul>
@@ -19,5 +18,6 @@
 	  <li><%= p.comment %></li>
 	<% end %>
 	  <li>can you see?</li>
-	  <li>It is not ok, again</li>
+	  <li>konacno radi</li>
+	  <li>falio je samo znak "="</li>
 </ul>
